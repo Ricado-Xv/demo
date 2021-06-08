@@ -27,6 +27,12 @@
 
 	<dependencyManagement>
 		<dependencies>
+			<!--引入自己写的server层作为依赖-->
+			<dependency>
+				<groupId>com.course</groupId>
+				<artifactId>server</artifactId>
+				<version>0.0.1-SNAPSHOT</version>
+			</dependency>
 			<!--集成mybatis-->
 			<dependency>
 				<groupId>org.mybatis.spring.boot</groupId>

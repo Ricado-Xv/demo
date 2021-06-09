@@ -4,7 +4,11 @@ create table `chapter`(
     `course_id` char(8) comment '课程ID',
     `name` varchar(50) comment '名称',
     primary key (`id`)
-)engine=innodb default charset=utf8mb4 comment='大章'
+)engine=innodb default charset=utf8mb4 comment='大章';
+
+insert into `chapter` (id,course_id,name) values ('00000000','00000000','测试数据一');
+insert into `chapter` (id,course_id,name) values ('00000001','00000000','测试数据二');
+insert into `chapter` (id,course_id,name) values ('00000002','00000001','测试数据三');
 
 # ---------------------- 测试
 
